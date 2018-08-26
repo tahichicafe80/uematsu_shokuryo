@@ -1,0 +1,522 @@
+/* 目次作る */
+
+
+/* 1 Reset --------------------- */
+
+/* 2 Font ---------------------- */
+body{
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: normal;
+    color: #333;
+    /* 游明朝体 */
+    font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+    background-color: #fff;
+}
+
+/* 3 Link ---------------------- */
+a:link, a:visited{
+    color:#000;
+    text-decoration: none;
+}
+a:hover, a:active{
+    color: #ccc;
+    text-decoration: none;
+}
+
+/* 4 header ---------------------------- */
+header{
+    width: 100%;
+    /* position: relative; /* 相対配置 親の基点 */ */
+    opacity: 1;
+    overflow: hidden;
+    z-index: 2;
+
+}
+
+header .container{
+    width: 1140px;
+    height: 130px;
+    margin: 0 auto;
+    margin-left: 150px;
+    margin-bottom: 40px;
+    /* display: flex; */
+}
+
+header h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+header h1 img{
+    /* width: 60px; */
+    height: auto;
+}
+
+header nav{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+
+/* 5 slider ---------------------- */
+
+.slider{
+    width: 100%;
+    height: 510px;
+    /* position: absolute; */
+    /* left: 0;
+    top: 200px; */
+}
+
+.slick-track{
+  height:510px;
+}
+
+.slide1{
+  background: url(../img/main01.jpg) top center no-repeat;
+  background-size: cover; /* 背景画像の拡大縮小 */
+}
+
+.slide2{
+  background: url(../img/main02.jpg) center center no-repeat;
+  background-size: cover; /* 背景画像の拡大縮小 */
+}
+
+.slide3{
+  background: url(../img/main03.jpg) center center no-repeat;
+  background-size: cover; /* 背景画像の拡大縮小 */
+}
+
+.slide4{
+  background: url(../img/concept_main01.jpg) center center no-repeat;
+  background-size: cover; /* 背景画像の拡大縮小 */
+}
+
+.slide5{
+  background: url(../img/concept_main02.jpg) center center no-repeat;
+  background-size: cover; /* 背景画像の拡大縮小 */
+}
+
+.slide6{
+  background: url(../img/concept_main03.jpg) center center no-repeat;
+  background-size: cover; /* 背景画像の拡大縮小 */
+}
+
+.slide7{
+  background: url(../img/products_main01.jpg) center center no-repeat;
+  background-size: cover; /* 背景画像の拡大縮小 */
+}
+
+.slide8{
+  background: url(../img/products_main02.jpg) center center no-repeat;
+  background-size: cover; /* 背景画像の拡大縮小 */
+}
+
+.slide9{
+  background: url(../img/products_main03.jpg) center center no-repeat;
+  background-size: cover; /* 背景画像の拡大縮小 */
+}
+
+.slide10{
+  background: url(../img/history_main01.jpg) center center no-repeat;
+  background-size: cover; /* 背景画像の拡大縮小 */
+}
+
+.slide11{
+  background: url(../img/history_main02.jpg) center center no-repeat;
+  background-size: cover; /* 背景画像の拡大縮小 */
+}
+
+.slide12{
+  background: url(../img/history_main03.jpg) center center no-repeat;
+  background-size: cover; /* 背景画像の拡大縮小 */
+}
+
+.slide13{
+  background: url(../img/factory_main01.jpg) center center no-repeat;
+  background-size: cover; /* 背景画像の拡大縮小 */
+}
+
+.slide14{
+  background: url(../img/factory_main02.jpg) center center no-repeat;
+  background-size: cover; /* 背景画像の拡大縮小 */
+}
+
+.slide15{
+  background: url(../img/factory_main03.jpg) center center no-repeat;
+  background-size: cover; /* 背景画像の拡大縮小 */
+}
+
+.slide16{
+  background: url(../img/factory_main01.jpg) center center no-repeat;
+  background-size: cover; /* 背景画像の拡大縮小 */
+}
+
+.slide17{
+  background: url(../img/factory_main02.jpg) center center no-repeat;
+  background-size: cover; /* 背景画像の拡大縮小 */
+}
+
+.slide18{
+  background: url(../img/factory_main03.jpg) center center no-repeat;
+  background-size: cover; /* 背景画像の拡大縮小 */
+}
+
+
+.slide19{
+  background: url(../img/company_main01.jpg) center center no-repeat;
+  background-size: cover; /* 背景画像の拡大縮小 */
+}
+
+.slide20{
+  background: url(../img/company_main02.jpg) center center no-repeat;
+  background-size: cover; /* 背景画像の拡大縮小 */
+}
+
+.slide21{
+  background: url(../img/company_main03.jpg) center center no-repeat;
+  background-size: cover; /* 背景画像の拡大縮小 */
+}
+
+
+
+/*  title ---------------------- */
+
+.title{
+    margin-top: 50px;
+    font-size: 15px;
+    margin-left: 150px;
+}
+
+.company_title{
+    /* margin-top: 50px; */
+    font-size: 15px;
+    margin-left: 150px;
+}
+
+
+/* 6 top_text ---------------------- */
+
+#alltext{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    clear:both; /* float解除 */
+
+}
+
+#alltext h2{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+}
+
+.text01{
+      /* 游ゴシック体 */
+      font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "MS Pゴシック", "MS PGothic", sans-serif;
+      margin-bottom: 20px;
+}
+
+.btn{
+    width: 268px;
+    height: 44px;
+    margin: 64px auto 0;
+    margin-bottom: 70px;
+}
+.btn a{
+    display: block;
+    width: 268px;
+    height: 44px;
+    background-color: rgba(68,68,68,1);
+    font-family: 'Montserrat',sans-serif;
+    font-size: 16px;
+    color: #FFF;
+    letter-spacing: 0.1rem;
+    line-height: 2.8;
+    transition: all 1s ease-out;
+}
+.btn a:hover{
+    background-color: rgba(255,68,68,0.6);
+}
+.btn a i{
+    transform: translate(0,7px);
+    transition: all 1s ease-out;
+}
+.btn a:hover i{
+    transform: translate(30px,7px);
+}
+
+/* 7 concept ---------------------- */
+
+#concept_container{
+  display: flex;
+  justify-content: space-between;
+}
+
+#concept_ja{
+  width: 450px;
+  margin-left: 150px;
+}
+
+#concept_ja h2{
+  /* font-weight: bold; */
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+#concept_ja .midashi{
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+#concept_en{
+  width: 450px;
+  margin-right: 100px;
+  font-size: 10px;
+}
+
+#concept_en h2{
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+#concept_en figure{
+  margin-top: 20px;
+}
+
+/* 8 products ---------------------- */
+
+
+#products_container{
+      display: flex;
+      justify-content: space-between;
+      /* width:1000px;
+      height: 100%;
+      margin: auto; */
+    }
+
+#products_uematsu{
+      width: 450px;
+      margin-left: 150px;
+      font-size: 12px;
+    }
+
+#products_uematsu h2{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-weight: bold;
+}
+
+#products_uematsu ul li{
+      margin-left: 1em;
+}
+
+
+#products_uematsu ul li span{
+      display: block;
+      margin-left: 5em;
+}
+
+#products_uematsu ul li span.shokuyo{
+      /* display: block; */
+      margin-left: 8em;
+}
+
+#products_maruhi{
+      width: 450px;
+      margin-right: 100px;
+      font-size: 12px;
+      border-left: 1px #c3c4c5 solid;
+      padding-left: 70px;
+    }
+
+#products_maruhi h2{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#products_maruhi ul li{
+      margin-left: 1em;
+}
+
+
+#products_maruhi ul li span{
+      display: block;
+      margin-left: 5em;
+}
+
+
+    /* 9 history ---------------------- */
+
+#history{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    clear:both; /* float解除 */
+
+}
+
+#history h2{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+#history dl{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    border-top: 1px solid #ccc;
+    letter-spacing: 0.5px;
+    }
+
+#history dt{
+  float: left;
+  clear: left;
+  font-weight: bold;
+  margin-right: 0.5em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 120px;
+  padding: 10px 10px 0 10px;
+  /* border-bottom: 1px solid #ccc; */
+}
+
+#history dd{
+  float: left ;
+  margin-left: 60px ;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 0.5em;
+  text-align: left;
+  padding: 10px 10px 0 10px;
+}
+
+/* 8 factory ---------------------- */
+
+
+
+#factory{
+      width: 450px;
+      margin-left: 150px;
+      font-size: 12px;
+    }
+
+#factory h2{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-weight: bold;
+}
+
+#factory .factorytext{
+      margin-top: 20px;
+}
+
+
+/* 9 company ---------------------- */
+
+
+#company_container{
+      display: flex;
+      justify-content: space-between;
+    }
+
+#company_information{
+      width: 450px;
+      margin-left: 150px;
+      font-size: 12px;
+    }
+
+#company_information .company_title{
+      /* margin-top: 50px; */
+      font-size: 15px;
+      margin-left: 0;
+}
+
+#company_information h2{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-weight: bold;
+}
+
+#company_information ul li{
+      margin-left: 1em;
+}
+
+
+#company_information ul li span{
+      display: block;
+      margin-left: 7em;
+}
+
+
+#company_saiyo{
+      width: 450px;
+      margin-right: 100px;
+      font-size: 12px;
+      border-left: 1px #c3c4c5 solid;
+      padding-left: 70px;
+
+    }
+
+#company_saiyo .company_title{
+      /* margin-top: 50px; */
+      font-size: 15px;
+      margin-left: 0;
+    }
+
+#company_saiyo h2{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/*  footer ---------------------- */
+
+.googlemap{
+    width: 100%;
+    height: 510px;
+    left: 0;
+    top: 200px;
+}
+
+.googlemap iframe{
+  width: 100%;
+  height: 510px;
+
+}
+
+/*  footer ---------------------- */
+
+footer{
+    align-items: center;
+    font-size: 10px;
+    border-top: 1px solid ;
+    border-color:#c3c4c5;
+    padding-top: 5px;
+    display: flex;
+      justify-content:space-between;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+
+
+}
+
+.footer-nav-sns{
+    font-size: 20px;
+    width: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
