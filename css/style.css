@@ -39,12 +39,12 @@ header .container{
     height: 130px;
     margin: 0 auto;
     margin-left: 150px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     /* display: flex; */
 }
 
 header h1{
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 
@@ -54,7 +54,7 @@ header h1 img{
 }
 
 header nav{
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: 1px;
 }
 
@@ -260,6 +260,7 @@ header nav{
 #concept_ja{
   width: 450px;
   margin-left: 150px;
+  margin-right: 100px;
 }
 
 #concept_ja h2{
@@ -275,9 +276,14 @@ header nav{
   font-size: 17px;
 }
 
+#concept_ja p span{
+      display: block;
+      /* margin-left: 7em; */
+}
+
 #concept_en{
   width: 450px;
-  margin-right: 100px;
+  margin-right: 50px;
   font-size: 10px;
 }
 
