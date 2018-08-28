@@ -48,7 +48,6 @@ $(function(){
         // console.log(worksContainerTop);
 
         // スクロールが#works .containerのY座標を超えらたら
-
         if(dy >= worksContainerTop - $(window).height()){
             // sectionに.fade-inのクラスを追加する
             $('#alltext').find('h2').addClass('fade-in');
@@ -64,7 +63,30 @@ $(function(){
             $('#alltext').find('.btn').addClass('fade-in2');
         }
 
+// .titleのjs ---------------------
+        // #concept_containarの高さを取得
+        var worksContainerTop = $('.title').offset().top;
+        // console.log(worksContainerTop);
+
+        // スクロールが#works .containerのY座標を超えらたら
+        if(dy >= worksContainerTop - $(window).height()){
+        // sectionに.fade-inのクラスを追加する
+        $('title').addClass('fade-in');
+        }
+
+// history.htmlのjs ---------------------
+        // #concept_containarの高さを取得
+        var worksContainerTop = $('#history').find('h2').offset().top;
+        // console.log(worksContainerTop);
+
+        // スクロールが#works .containerのY座標を超えらたら
+        if(dy >= worksContainerTop - $(window).height()){
+        // sectionに.fade-inのクラスを追加する
+        $('#history').addClass('fade-in');
+        }
+
     });
+
 
 
 });

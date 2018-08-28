@@ -202,34 +202,6 @@ header nav{
     margin-left: 150px;
 }
 
-/*  fade-in ---------------------- */
-
-.fade-in{
-    animation-name: fade-in;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease;
-    animation-iteration-count: 1;
-}
-
-.fade-in2{
-    animation-name: fade-in;
-    animation-duration: 7s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease;
-    animation-iteration-count: 1;
-}
-
-@keyframes fade-in {
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
-}
-
-
 
 /* 6 top_text ---------------------- */
 
@@ -285,6 +257,13 @@ header nav{
     transform: translate(30px,7px);
 }
 
+#container{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
 /* 7 concept ---------------------- */
 
 #concept_container{
@@ -296,6 +275,7 @@ header nav{
   width: 500px;
   margin-left: 150px;
   margin-right: 100px;
+
 }
 
 #concept_ja h2{
@@ -444,8 +424,6 @@ header nav{
 
 /* 8 factory ---------------------- */
 
-
-
 #factory{
       width: 450px;
       margin-left: 150px;
@@ -461,6 +439,29 @@ header nav{
 #factory .factorytext{
       margin-top: 20px;
 }
+
+
+/* 8 ACCESS ---------------------- */
+
+
+
+#access{
+      width: 450px;
+      margin-left: 150px;
+      font-size: 12px;
+    }
+
+#access h2{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-weight: bold;
+}
+#access ul li span{
+  display: block;
+  /* margin-left: 5em; */
+
+}
+
 
 
 /* 9 company ---------------------- */
@@ -561,4 +562,31 @@ footer{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+}
+
+/*  fade-in ---------------------- */
+
+.fade-in{
+    animation-name: fade-in;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+}
+
+.fade-in2{
+    animation-name: fade-in;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+}
+
+@keyframes fade-in {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
