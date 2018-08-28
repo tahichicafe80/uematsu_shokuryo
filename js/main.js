@@ -63,6 +63,8 @@ $(function(){
             $('#alltext').find('.btn').addClass('fade-in2');
         }
 
+
+
 // .titleのjs ---------------------
         // #concept_containarの高さを取得
         var worksContainerTop = $('.title').offset().top;
