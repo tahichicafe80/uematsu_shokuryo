@@ -343,8 +343,9 @@ header nav{
 
 #alltext{
     text-align: center;
+    margin: auto;
     margin-top: 50px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     clear:both; /* float解除 */
 
 }
@@ -361,7 +362,6 @@ header nav{
 .text01{
       /* 游ゴシック体 */
       font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "MS Pゴシック", "MS PGothic", sans-serif;
-      margin-bottom: 20px;
 }
 
 .btn{
@@ -369,21 +369,22 @@ header nav{
     height: 44px;
     margin: 64px auto 0;
     margin-bottom: 70px;
+    border: 1px solid #ccc;
 }
 .btn a{
     display: block;
     width: 268px;
     height: 44px;
-    background-color: rgba(68,68,68,1);
-    font-family: 'Montserrat',sans-serif;
+    background-color: rgba(255,255,255,1);
+    /* font-family: 'Montserrat',sans-serif; */
     font-size: 16px;
-    color: #FFF;
-    letter-spacing: 0.1rem;
+    /* color: #FFF; */
+    letter-spacing: 0.2rem;
     line-height: 2.8;
     transition: all 1s ease-out;
 }
 .btn a:hover{
-    background-color: rgba(255,68,68,0.6);
+    background-color: rgba(255,255,255,0.6);
 }
 .btn a i{
     transform: translate(0,7px);
@@ -714,7 +715,7 @@ footer{
 
 .fade-in2{
     animation-name: fade-in;
-    animation-duration: 7s;
+    animation-duration: 5s;
     animation-fill-mode: forwards;
     animation-timing-function: ease;
     animation-iteration-count: 1;
