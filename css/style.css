@@ -28,7 +28,7 @@ a:hover, a:active{
 header{
     width: 100%;
     /* position: relative; /* 相対配置 親の基点 */
-    opacity: 0;
+    /* opacity: 0;
   animation-name: fade-in;
   animation-duration: 2s;
   animation-delay: .5s;
@@ -36,8 +36,8 @@ header{
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
     /* opacity: 1; */
-    overflow: hidden;
-    z-index: 2;
+    /* overflow: hidden;
+    z-index: 2; */
 
 }
 
@@ -63,6 +63,18 @@ header h1 img{
 header nav{
     font-size: 15px;
     letter-spacing: 1px;
+    /* opacity: 0; */
+  /* animation-name: fade-in;
+  animation-duration: 2s;
+  animation-delay: .5s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; */
+    /* opacity: 1; */
+    /* overflow: hidden;
+    z-index: 2; */
+
+
 }
 
 
@@ -74,6 +86,17 @@ header nav{
     overflow: hidden;
     position: relative;
     z-index: 2;
+    opacity: 0;
+    animation-name: fade-in;
+    animation-duration: 2s;
+    animation-delay: .5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    /* opacity: 1; */
+    overflow: hidden;
+    z-index: 2;
+
     /* position: absolute; */
     /* left: 0;
     top: 200px; */
@@ -371,6 +394,13 @@ header nav{
     margin-bottom: 70px;
     border: 1px solid #ccc;
 }
+
+.btn .material-icons{
+  transform: translateY(0.375rem);
+
+}
+
+
 .btn a{
     display: block;
     width: 268px;
@@ -394,11 +424,13 @@ header nav{
     transform: translate(30px,7px);
 }
 
+
 #container{
   display: flex;
   justify-content: space-between;
 
 }
+
 
 
 /* 7 concept ---------------------- */
