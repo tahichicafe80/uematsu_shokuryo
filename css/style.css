@@ -71,7 +71,6 @@ header nav .container h1{
 header nav .container h1:hover{
     opacity: 0.5;
     transition: all 0.5s ease-out;
-    transition: all 0.5s ease-in;
 }
 
 header nav .container h1 img{
@@ -468,11 +467,12 @@ header nav ul li.current a{
 }
 
 
-#container{
+#container_topunder{
   display: flex;
   justify-content: space-between;
 
 }
+
 
 
 
