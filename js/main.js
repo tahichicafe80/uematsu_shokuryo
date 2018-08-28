@@ -63,6 +63,15 @@ $(function(){
             $('#alltext').find('.btn').addClass('fade-in2');
         }
 
+        // #works .containerの高さを取得
+        var  pickContainerTop = $('.container_topunder').offset().top;
+        // console.log(worksContainerTop);
+
+        // スクロールが#works .containerのY座標を超えらたら
+        if(dy >= pickContainerTop - $(window).height()){
+            // sectionに.fade-inのクラスを追加する
+            $('.container_topunder').addClass('fade-in2');
+        }
 
 
     });
