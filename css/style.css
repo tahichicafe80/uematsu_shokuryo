@@ -27,6 +27,11 @@ a:hover, a:active{
 /* 4 header ---------------------------- */
 header{
     width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 3;
+    background: rgba(255, 255, 255, 0.5);
+
     /* position: relative; /* 相対配置 親の基点 */
     /* opacity: 0;
   animation-name: fade-in;
@@ -42,27 +47,53 @@ header{
 }
 
 header .container{
-    width: 1140px;
-    height: 130px;
+    width: 1240px;
+    height: 100px;
     margin: 0 auto;
-    margin-left: 150px;
-    margin-bottom: 30px;
-    /* display: flex; */
+    display: flex;
 }
 
-header h1{
+header nav .container h1{
     margin-top: 20px;
     margin-bottom: 30px;
+    margin-left: 150px
 }
 
-header h1 img{
-    /* width: 60px; */
+header nav .container h1:hover{
+    opacity: 0.5;
+    transition: all 0.5s ease-out;
+    transition: all 0.5s ease-in;
+}
+
+header nav .container h1 img{
+    width: 200px;
     height: auto;
 }
 
-header nav{
+header nav .container ul{
+    width: 560px;
+    height: 64px;
     font-size: 15px;
     letter-spacing: 1px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-top: 40px;
+    padding: 0 100px;
+}
+
+header nav ul li a{
+  transition: all 0.5s ease-out;
+}
+
+header nav ul li.current a{
+    box-sizing: border-box; /* padding と borderがwidthとheightに含まれる */
+    border-bottom: 2px #CCC solid;
+    color: #CCC;
+}
+
+
+
     /* opacity: 0; */
   /* animation-name: fade-in;
   animation-duration: 2s;
@@ -73,8 +104,6 @@ header nav{
     /* opacity: 1; */
     /* overflow: hidden;
     z-index: 2; */
-
-
 }
 
 
@@ -85,7 +114,6 @@ header nav{
     height: 510px;
     overflow: hidden;
     position: relative;
-    z-index: 2;
     opacity: 0;
     animation-name: fade-in;
     animation-duration: 2s;
@@ -96,6 +124,8 @@ header nav{
     /* opacity: 1; */
     overflow: hidden;
     z-index: 2;
+    top: 100px;
+
 
     /* position: absolute; */
     /* left: 0;
@@ -104,6 +134,9 @@ header nav{
 
 .slick-track{
   height:510px;
+  top: 100px;
+  z-index: 2;
+
 }
 
 .slide1{
