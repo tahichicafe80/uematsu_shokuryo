@@ -42,28 +42,16 @@ $(function(){
         var dy = $(this).scrollTop();
         // console.log(dy);
 
-// index.htmlのjs ---------------------
-        // #works .containerの高さを取得
-        var worksContainerTop = $('#alltext').offset().top;
-        // console.log(worksContainerTop);
+// history.htmlのjs ---------------------
+        // #concept_containarの高さを取得
+        var historyContainerTop = $('#history').find('h2').offset().top;
+        console.log(historyContainerTop);
 
         // スクロールが#works .containerのY座標を超えらたら
-        if(dy >= worksContainerTop - $(window).height()){
-            // sectionに.fade-inのクラスを追加する
-            $('#alltext').find('h2').addClass('fade-in');
+        if(dy >= historyContainerTop - $(window).height()){
+        // sectionに.fade-inのクラスを追加する
+        $('#history').addClass('fade-in');
         }
-
-        if(dy >= worksContainerTop - $(window).height()){
-            // sectionに.fade-inのクラスを追加する
-            $('#alltext').find('.text01').addClass('fade-in2');
-        }
-
-        if(dy >= worksContainerTop - $(window).height()){
-            // sectionに.fade-inのクラスを追加する
-            $('#alltext').find('.btn').addClass('fade-in2');
-        }
-
-
 
     });
 

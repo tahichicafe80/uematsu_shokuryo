@@ -44,25 +44,20 @@ $(function(){
 
 // index.htmlのjs ---------------------
         // #works .containerの高さを取得
-        var worksContainerTop = $('#alltext').offset().top;
+        var titleTop = $('.title').offset().top;
         // console.log(worksContainerTop);
 
         // スクロールが#works .containerのY座標を超えらたら
-        if(dy >= worksContainerTop - $(window).height()){
+        if(dy >= titleTop - $(window).height()){
             // sectionに.fade-inのクラスを追加する
-            $('#alltext').find('h2').addClass('fade-in');
+            $('.title').addClass('fade-in');
         }
 
-        if(dy >= worksContainerTop - $(window).height()){
+        // スクロールが#works .containerのY座標を超えらたら
+        if(dy >= titleTop - $(window).height()){
             // sectionに.fade-inのクラスを追加する
-            $('#alltext').find('.text01').addClass('fade-in2');
+            $('#concept_container').addClass('fade-in');
         }
-
-        if(dy >= worksContainerTop - $(window).height()){
-            // sectionに.fade-inのクラスを追加する
-            $('#alltext').find('.btn').addClass('fade-in2');
-        }
-
 
 
     });

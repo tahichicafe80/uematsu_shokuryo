@@ -520,6 +520,7 @@ header nav{
     margin-top: 50px;
     margin-bottom: 100px;
     clear:both; /* float解除 */
+    /* opacity: 0; */
 }
 
 #history h2{
