@@ -845,13 +845,13 @@ header nav ul li.current a{
 }
 
 #access_information ul li{
-      margin-left: 1em;
+      /* margin-left: 1em; */
 }
 
 
 #access_information ul li span{
       display: block;
-      margin-left: 7em;
+      margin-left: 4em;
 }
 
 
@@ -914,6 +914,11 @@ header nav ul li.current a{
 #company_information ul li span{
       display: block;
       margin-left: 7em;
+}
+
+#company_information ul li .com2{
+      display: block;
+      margin-left: 5em;
 }
 
 
