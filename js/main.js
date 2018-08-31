@@ -49,29 +49,30 @@ $(function(){
 
         // スクロールが#works .containerのY座標を超えらたら
         if(dy >= worksContainerTop - $(window).height()){
+          console.log('js読み込んだよ');
             // sectionに.fade-inのクラスを追加する
-            $('#alltext').find('h2').addClass('fade-in');
+            $('#alltext').addClass('fade-in');
         }
 
-        if(dy >= worksContainerTop - $(window).height()){
-            // sectionに.fade-inのクラスを追加する
-            $('#alltext').find('.text01').addClass('fade-in2');
-        }
+        // if(dy >= worksContainerTop - $(window).height()){
+        //     // sectionに.fade-inのクラスを追加する
+        //     $('#alltext').find('.text01').addClass('fade-in2');
+        // }
+        //
+        // if(dy >= worksContainerTop - $(window).height()){
+        //     // sectionに.fade-inのクラスを追加する
+        //     $('#alltext').find('.btn').addClass('fade-in2');
+        // }
 
-        if(dy >= worksContainerTop - $(window).height()){
-            // sectionに.fade-inのクラスを追加する
-            $('#alltext').find('.btn').addClass('fade-in2');
-        }
-
-        // #works .containerの高さを取得
-        var  pickContainerTop = $('.container_topunder').offset().top;
-        // console.log(worksContainerTop);
-
-        // スクロールが#works .containerのY座標を超えらたら
-        if(dy >= pickContainerTop - $(window).height()){
-            // sectionに.fade-inのクラスを追加する
-            $('.container_topunder').addClass('fade-in2');
-        }
+        // // #works .containerの高さを取得
+        // var  pickContainerTop = $('.container_topunder').offset().top;
+        // // console.log(worksContainerTop);
+        //
+        // // スクロールが#works .containerのY座標を超えらたら
+        // if(dy >= pickContainerTop - $(window).height()){
+        //     // sectionに.fade-inのクラスを追加する
+        //     $('.container_topunder').addClass('fade-in2');
+        // }
 
 
     });

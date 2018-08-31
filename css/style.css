@@ -412,7 +412,7 @@ header nav ul li.current a{
     margin-top: 50px;
     margin-bottom: 0px;
     clear:both; /* float解除 */
-
+    opacity: 0;
 }
 
 #alltext h2{
