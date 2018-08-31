@@ -44,7 +44,7 @@ $(function(){
 
 // history.htmlのjs ---------------------
         // #concept_containarの高さを取得
-        var historyContainerTop = $('#history').find('h2').offset().top;
+        var historyContainerTop = $('#history').offset().top;
         console.log(historyContainerTop);
 
         // スクロールが#works .containerのY座標を超えらたら

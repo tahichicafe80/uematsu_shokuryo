@@ -4,6 +4,20 @@ $(function(){
 
     console.log('読み込んだよ');
 
+    // var $win = $(window),
+    //       $cloneNav = $('header').clone().addClass('clone-nav').appendTo('body'),
+    //       showClass = 'is-show';
+    //
+    //   $win.on('load scroll', function() {
+    //     var value = $(this).scrollTop();
+    //     if ( value > 10 ) {
+    //       $cloneNav.addClass(showClass);
+    //     } else {
+    //       $cloneNav.removeClass(showClass);
+    //     }
+    //   });
+
+
     // スライドショー
     $('.slider').slick({
         arrows:false, /* 次への矢印 */
