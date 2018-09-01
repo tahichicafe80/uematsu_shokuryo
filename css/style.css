@@ -92,7 +92,7 @@ header nav .container h1 img{
 }
 
 header nav .container ul{
-    width: 560px;
+    width: 660px;
     height: 64px;
     font-size: 15px;
     letter-spacing: 1px;
@@ -418,6 +418,7 @@ header nav ul li.current a{
 }
 
 
+
 /* 6 top_text ---------------------- */
 
 #alltext{
@@ -434,13 +435,16 @@ header nav ul li.current a{
   margin-top: 20px;
   margin-bottom: 30px;
   font-weight: bold;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
 
 }
 
 .text01{
       /* 游ゴシック体 */
       font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "MS Pゴシック", "MS PGothic", sans-serif;
+      /* letter-spacing: 0.05rem; */
+      line-height: 2;
 }
 
 .btn{
@@ -572,10 +576,20 @@ header nav ul li.current a{
 
 /* 7 concept ---------------------- */
 
+.concept_title{
+    margin-top: 30px;
+    font-size: 15px;
+    /* margin-left: 150px; */
+    /* opacity: 0; */
+}
+
 #concept_container{
+  max-width: 1200px;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   opacity: 0;
+
 }
 
 #concept_ja{
@@ -606,16 +620,16 @@ header nav ul li.current a{
 #concept_en{
   width: 450px;
   margin-right: 50px;
-  font-size: 10px;
 }
 
 #concept_en h2{
-  font-size: 15px;
-  margin-bottom: 10px;
+  font-size: 23px;
+  margin-top: 65px;
+  margin-bottom: 20px;
 }
 
 #concept_en figure{
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 /* 8 products ---------------------- */
@@ -625,9 +639,11 @@ header nav ul li.current a{
       display: flex;
       justify-content: space-between;
       opacity: 0;
+      letter-spacing: 0.05rem;
+      margin: auto;
+      max-width: 1200px;
       /* width:1000px;
-      height: 100%;
-      margin: auto; */
+      height: 100%;*/
     }
 
 #products_uematsu{
@@ -636,8 +652,14 @@ header nav ul li.current a{
       /* font-size: 12px; */
     }
 
+.products_title{
+    margin-top: 0px;
+    font-size: 15px;
+        /* margin-left: 150px; */
+    }
+
 #products_uematsu h2{
-      margin-top: 10px;
+      margin-top: 30px;
       margin-bottom: 10px;
       font-weight: bold;
 }
@@ -666,7 +688,7 @@ header nav ul li.current a{
     }
 
 #products_maruhi h2{
-  margin-top: 10px;
+  margin-top: 50px;
   margin-bottom: 10px;
   font-weight: bold;
 }
@@ -731,6 +753,7 @@ header nav ul li.current a{
   margin-right: 0.5em;
   text-align: left;
   padding: 10px 10px 0 10px;
+  letter-spacing: 0.5px;
 }
 
 /* 8 factory ---------------------- */
@@ -758,6 +781,8 @@ header nav ul li.current a{
       justify-content: space-between;
       margin-top: 50px;
       margin-bottom: 100px;
+      margin: auto;
+      max-width: 1200px;
       /* font-size: 12px; */
     }
 
@@ -815,8 +840,10 @@ header nav ul li.current a{
       opacity: 0;
       display: flex;
       justify-content: space-between;
+      margin: auto;
       margin-top: 50px;
       margin-bottom: 100px;
+      max-width: 1200px;
       /* font-size: 12px; */
     }
 
@@ -885,6 +912,8 @@ header nav ul li.current a{
       display: flex;
       justify-content: space-between;
       opacity: 0;
+      margin: auto;
+      max-width: 1200px;
     }
 
 #company_information{
@@ -908,6 +937,7 @@ header nav ul li.current a{
 
 #company_information ul li{
       margin-left: 1em;
+      letter-spacing: 1px;
 }
 
 

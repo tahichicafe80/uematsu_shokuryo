@@ -44,20 +44,15 @@ $(function(){
 
 // index.htmlのjs ---------------------
         // #works .containerの高さを取得
-        var titleTop = $('.title').offset().top;
+        var titleTop = $('#products_container').offset().top;
         // console.log(worksContainerTop);
-
-        // スクロールが#works .containerのY座標を超えらたら
-        if(dy >= titleTop - $(window).height()){
-            // sectionに.fade-inのクラスを追加する
-            $('.title').addClass('fade-in');
-        }
 
         // スクロールが#works .containerのY座標を超えらたら
         if(dy >= titleTop - $(window).height()){
             // sectionに.fade-inのクラスを追加する
             $('#products_container').addClass('fade-in');
         }
+
 
 
     });
