@@ -639,9 +639,9 @@ header nav ul li.current a{
       display: flex;
       justify-content: space-between;
       opacity: 0;
-      letter-spacing: 0.05rem;
       margin: auto;
       max-width: 1200px;
+      margin-top:50px;
       /* width:1000px;
       height: 100%;*/
     }
@@ -679,12 +679,18 @@ header nav ul li.current a{
       margin-left: 8em;
 }
 
+#products_uematsu ul li span.shokuyo2{
+      /* display: block; */
+      margin-left: 7em;
+}
+
 #products_maruhi{
       width: 450px;
       margin-right: 100px;
       /* font-size: 12px; */
       border-left: 1px #c3c4c5 solid;
       padding-left: 70px;
+      letter-spacing: 0.05rem;
     }
 
 #products_maruhi h2{
