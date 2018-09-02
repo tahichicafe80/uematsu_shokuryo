@@ -221,6 +221,11 @@ header nav ul li.current a{
   background-size: cover; /* 背景画像の拡大縮小 */
 }
 
+.slide12_a{
+  background: url(../img/history_main04.jpg) center center no-repeat;
+  background-size: cover; /* 背景画像の拡大縮小 */
+}
+
 .slide13{
   background: url(../img/factory_main01.jpg) center center no-repeat;
   background-size: cover; /* 背景画像の拡大縮小 */
@@ -264,6 +269,11 @@ header nav ul li.current a{
 
 .slide21{
   background: url(../img/company_main03.jpg) center center no-repeat;
+  background-size: cover; /* 背景画像の拡大縮小 */
+}
+
+.slide22{
+  background: url(../img/company_main04.jpg) center center no-repeat;
   background-size: cover; /* 背景画像の拡大縮小 */
 }
 
