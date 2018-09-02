@@ -10,7 +10,7 @@ $(function(){
         autoplay:true, /* 自動更新 */
         //adaptiveHeight: true, /* 高さの自動調整 */
         dots: true, /* 小さい丸をだすかどうか */
-        autoplaySpeed : 3000, /* 切り替えの速さ */
+        autoplaySpeed : 4000, /* 切り替えの速さ */
         fade:true,
         pauseOnHover: false /* 最後の行はカンマいらない */
     });

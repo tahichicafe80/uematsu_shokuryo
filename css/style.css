@@ -142,7 +142,7 @@ header nav ul li.current a{
     position: relative;
     opacity: 0;
     animation-name: fade-in;
-    animation-duration: 2s;
+    animation-duration: 4s;
     animation-delay: .5s;
     animation-timing-function: ease-out;
     animation-iteration-count: 1;
